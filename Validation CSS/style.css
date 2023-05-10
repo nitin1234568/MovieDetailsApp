@@ -1,0 +1,71 @@
+.login
+{
+  height:100%;
+  width:100%;
+  text-align: center;
+}
+.login input
+{
+   text-align: center;
+   width:100%;
+   outline:0;
+   border:0;
+}
+form
+{
+  padding:100px;
+}
+
+#login_btn
+{
+  background-color: red;
+  width:150px;
+  padding:8px;
+  border-radius:5px;
+  margin: auto;
+  text-align: center;
+}
+
+a
+{
+  color: green;
+}
+#rgstr_btn
+{
+  background-color: red;
+  width:150px;
+  margin: auto;
+  text-align: center;
+  padding:8px;
+  border-radius:5px;
+}
+#rgstr_btn:hover
+{
+  background-color: black;
+  color: white;
+}
+#login_btn:hover
+{
+  background-color: black;
+  color: white;
+}
+.container
+{
+  height:100%;
+  width:100%;
+  text-align: center;
+}
+
+input
+{
+  padding:20px;
+}
+h1
+{
+  text-align: center;
+}
+
+a:hover
+{
+  color:white;
+}

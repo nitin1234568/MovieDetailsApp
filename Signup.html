@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./Validation CSS/style.css">
+</head>
+<body>
+    <div class="header">
+        <a href="./index.html" class="logo">
+            <h4 class="Appname" style="display:flex; justify-content:center; align-items: center; gap:20px;"><img src="./assets/images/logo.png" alt="Movie Details App" width="70" height="32">Movie Details App</h4>
+        </a>
+    </div> 
+    <div class="container">
+    <div class="login">
+        <form name='form-login'>
+            <h1>REGISTER</h1>
+            <label for="name">Email</label>
+            <input type="email" id="name" placeholder="Username" required>
+    
+            <label for="pw">Password</label>
+            <input type="password"
+                   id= "pw"
+                   placeholder="Password" required>
+    
+            <ul class="helper-text">
+                <li class="length">Must be at least 8 characters long.</li>
+                <li class="lowercase">Must contain a lowercase letter.</li>
+                <li class="uppercase">Must contain an uppercase letter.</li>
+                <li class="special">Must contain a number or special character.</li>
+            </ul>
+            <button id="rgstr_btn" type="submit" value="Register" onclick="store()">
+                Register</button>
+            <div class="suggest">
+                <h4>Already have an Account</h4>
+                <a href="./index.html">Login</a>
+            </div>
+        </form>
+    </div>
+</div>
+    <script src="./Validation Javascript/index.js"></script>
+</body>
+</html>
